@@ -239,7 +239,7 @@ public enum Cooldown implements ExtendedCooldownDescriptor {
 
 	// VPR
 	// Also pit of dread
-	Dreadwinder(builder(CooldownType.PERSONAL_BURST, true, 0x873C, 0x873F).maxCharges(3)),
+	Dreadwinder(builder(CooldownType.PERSONAL_BURST, true, 0x873C, 0x873F).maxCharges(2)),
 	SerpentsIre(builder(CooldownType.PERSONAL_BURST, true, 0x8757)),
 	Slither(builder(CooldownType.PERSONAL_UTILITY, false, 0x8756)),
 
@@ -275,7 +275,7 @@ public enum Cooldown implements ExtendedCooldownDescriptor {
 
 	// PCT
 	StarryMuse(builder(CooldownType.PARTY_BUFF, true, 34675)),
-	SteelMuse(builder(CooldownType.PERSONAL_BURST, false, 34685, 34675).name("Steel/Striking Muse").maxCharges(2)),
+	SteelMuse(builder(CooldownType.PERSONAL_BURST, false, 35348, 34674).name("Steel/Striking Muse").maxCharges(2)),
 	LivingMuse(builder(CooldownType.PERSONAL_BURST, false, 35347, 34670, 34671, 34672, 34673).name("Living Muse").maxCharges(3)),
 	Smudge(builder(CooldownType.PERSONAL_UTILITY, false, 0x877C)),
 	// TODO: Cannot do Tempera Coat (yet) because of the CD reduction mechanic
